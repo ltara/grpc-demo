@@ -1,0 +1,8 @@
+syntax = "proto3";
+package login;
+
+message PBUser {
+    string uid = 1;
+    string pwd = 2;
+    int64 age = 3;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3"; // 指定protobuf的版本
+package allTypePackage;
+
+message allType {
+  string str = 1;
+  int32 num32 = 2;
+  int64 num64 = 3;
+  float float = 4;
+  double double = 5;
+  bool bool = 6;
+  bytes bytes = 7;
+  customType custom = 8;
+}
+
+message customType {
+  string str1 = 1;
+  bool flag = 2;
+}

@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "serve": "node ./chat/chat-server.js",
+    "client": "node ./chat/chat-client.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.5.5",
+    "@grpc/proto-loader": "^0.6.9",
+    "yaml": "^2.0.0"
+  }
+}

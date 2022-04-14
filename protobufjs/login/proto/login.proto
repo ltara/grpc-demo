@@ -1,0 +1,11 @@
+syntax = "proto3";
+package login;
+import "./user.proto";
+
+message LoginReq {
+    PBUser user = 1;
+}
+
+message LoginRes {
+    int64 code = 1;
+}
